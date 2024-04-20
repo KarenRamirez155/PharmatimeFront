@@ -6,6 +6,7 @@ const Register = () => {
     const navigate = useNavigate();
     const regreso = () => { navigate("/Login"); }
     return (
+        <body id="Register1">
 
         <div className='wrapper1'>
             <form action="">
@@ -53,6 +54,7 @@ const Register = () => {
             </form>
 
         </div>
+        </body>
 
     );
 };
