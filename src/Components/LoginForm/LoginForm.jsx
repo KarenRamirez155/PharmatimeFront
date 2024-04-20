@@ -7,6 +7,7 @@ import { LuLogIn } from "react-icons/lu";
 
 const LoginForm = () => {
     return(
+        <body id='login1'>
 
 
         <div className='wrapper'>
@@ -34,6 +35,8 @@ const LoginForm = () => {
                 
             </form>
         </div>
+
+        </body>
 
     )
 }
