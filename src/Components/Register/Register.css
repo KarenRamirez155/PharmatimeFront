@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefine Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../Assets/Fondo-register.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.wrapper1 {
+    width: 1000px;
+   /* background: green; */
+    color: azure;
+    box-sizing: border-box;
+    margin-top: 300px;
+   
+}
+
+.input-box.left {
+    float: left;
+    margin-right:200px; /* Espacio entre input-box izquierdo y derecho */
+}
+
+.input-box.right {
+    float: right;
+    margin-left: 200px; /* Espacio entre input-box derecho e izquierdo */
+}
+
+
+.wrapper1 .input-box {
+    position: relative;
+    width: 50%;
+    height: 30px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: white;
+    outline: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 45px 20px 20px;
+    right: 330px;
+    
+}
+
+.input-box input::placeholder {
+    color: aliceblue;
+}
+
+.input-box .icon1 {
+    position: relative;
+    right: 330px;
+    top: 60%;
+    transform: translateY(-15%);
+    font-size: 20px;
+}
+
+
+.wrapper1 .icon1 {
+    position: relative;
+    left: 135px;
+    top: 100%;
+    font-size: 80px;
+}
+.wrapper1 .remember-forgot{
+    display: flex;
+    justify-content:center;
+    font-size: 14px;
+    margin: -15px 0 15px;
+ }
+
+ .remember-forgot a{
+    color: white;
+ }
+
+.wrapper1 .button {
+    width: 60%;
+    height: 100%;
+    background: white;
+    border: rgba(247, 246, 246, 0.897);
+    outline: rgba(247, 246, 246, 0.897);
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgb(143, 141, 141);
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    margin: 15px 0px;
+   
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos con espaciado entre ellos */
+    width: 90%; /* Opcional: ajusta el ancho del contenedor según sea necesario */
+}
+
+.button-container div {
+    width: 30%; /* Ajusta el ancho de los divs que contienen los botones */
+}
+
+.button-container button {
+    width: 90%; /* Ajusta el ancho de los botones al 100% del div contenedor */
+}
+.input-box.right {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+}
+
+.text-below {
+    margin-top: 10px; /* Espacio entre el input-box y el texto debajo */
+}

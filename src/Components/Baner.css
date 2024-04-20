@@ -1,0 +1,35 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 10px 10px;
+    background-color: #082744; /* Cambia el color de fondo según tu preferencia */
+    /*border-bottom: 1px solid #ccc; /* Borde inferior */
+    width: 200%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+
+    
+}
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+/* Estilo para el logo */
+.logo {
+    height: 70px; /* Ajusta la altura del logo según sea necesario */
+}
+
