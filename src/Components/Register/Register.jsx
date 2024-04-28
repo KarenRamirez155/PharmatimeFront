@@ -43,7 +43,7 @@ const Register = () => {
                     <input type="text" placeholder="Correo electrónico" required />
                     <BiUser className="icon" />
                 </div>
-                
+
                 {/* botones seguidos */}
                 <div class="button-container">
                     <div><button type='submit'>¿YA TIENES UNA CUENTA?</button></div>
