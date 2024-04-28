@@ -3,7 +3,7 @@ import "./RecoverPassword.css"
 
 const RecoverPassword = () => {
     return(
-        <div className="wrapper">
+        <div className="wrapper2">
             <form action="">
                 <h1>Recuperar Contraseña</h1>
                 <div className="input-box">

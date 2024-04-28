@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 #Register1 {
@@ -16,6 +17,9 @@
     background-image: url('../Assets/Fondo-register.jpeg');
     background-size: 100% 100%;
     background-position: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 code {
@@ -23,31 +27,64 @@ code {
 }
 
 .wrapper1 {
-    width: 1000px;
-   /* background: green; */
+    display: flex;
+    width: 100%;
+    height: 100%;
     color: azure;
     box-sizing: border-box;
-    margin-top: 300px;
+   /*justify-content: space-between;*/
    
 }
 
-.input-box.left {
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 50%;
     float: left;
-    margin-right:200px; /* Espacio entre input-box izquierdo y derecho */
+    margin: 40px 0px -270px;
+    /*margin-top: 10px;*/
 }
 
-.input-box.right {
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 50%;
     float: right;
-    margin-left: 200px; /* Espacio entre input-box derecho e izquierdo */
+    margin: 40px 0px -270px;
+    /*margin-top: 10px;*/
 }
-
 
 .wrapper1 .input-box {
     position: relative;
     width: 50%;
     height: 30px;
-    margin: 30px 0;
+    margin: 0px 20px 50px 70px; /*margen inferior para separar las input box*/
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
+.input-box.left {
+    /*float: left;*/
+    margin-right:20px; /* Espacio entre input-box izquierdo y derecho */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    width: 100%;
+    height: 30px;
+}
+
+.input-box.right {
+    /*float: right;*/
+    margin-left: 20px; /* Espacio entre input-box derecho e izquierdo */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    width: 100%;
+    height: 30px;
+}
+
 
 .input-box input {
     width: 80%;
@@ -62,6 +99,9 @@ code {
     text-align: center;
     padding: 20px 45px 20px 20px;
     right: 330px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
     
 }
 
@@ -108,25 +148,32 @@ code {
     color: black;
     font-weight: 700;
     margin: 15px 0px;
+    box-sizing: border-box;
    
 }
 .button-container {
+    /*margin-top: 50%;*/
     display: flex;
     justify-content: space-between; /* Alinea los elementos con espaciado entre ellos */
-    width: 90%; /* Opcional: ajusta el ancho del contenedor según sea necesario */
+    width: 70%; /* Opcional: ajusta el ancho del contenedor según sea necesario */
+    margin: 20px 200px 0px;
+    box-sizing: border-box;
 }
 
 .button-container div {
+    box-sizing: border-box;
+    /*margin-top: 50%;*/
     width: 30%; /* Ajusta el ancho de los divs que contienen los botones */
+    margin: 100px 20px 80px 20px;
 }
 
 .button-container button {
     width: 90%; /* Ajusta el ancho de los botones al 100% del div contenedor */
+    
 }
-.input-box.right {
-    display: flex;
-    flex-direction: column; /* Coloca los elementos en columna */
-}
+
+    
+
 
 .text-below {
     margin-top: 10px; /* Espacio entre el input-box y el texto debajo */
