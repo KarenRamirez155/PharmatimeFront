@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+
+#patient1 {
+    font-family: 'Josefine Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+
+  /* Encabezado */
+  .header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+    border-bottom: 2px solid gray;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+
+  .menu {
+    width: 14rem;
+    height: calc(100vh - 52px);
+    border-right: 1px solid gray;
+    ul{
+      list-style: none;
+      padding: 1rem 2rem;
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  
+  /* Lista de pacientes */
+  .patients {
+    margin-top: 20px;
+  }
+  
+  .patients table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patients th,
+  .patients td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .patients th {
+    text-align: left;
+  }
+  
+  /* Asignación de medicamentos */
+  .medication-assignment {
+    margin-top: 20px;
+  }
+  
+  .medication-assignment form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .medication-assignment label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .medication-assignment input,
+  .medication-assignment select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .medication-assignment button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Horario */
+  .schedule {
+    margin-top: 20px;
+  }
+  
+  .schedule table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .schedule th,
+  .schedule td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .schedule th {
+    text-align: left;
+}

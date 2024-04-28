@@ -6,6 +6,7 @@ const Register = () => {
     const navigate = useNavigate();
     const regreso = () => { navigate("/Login"); }
     return (
+        <body id="Register1">
 
         <div className='wrapper1'>
             <form action="">
@@ -43,7 +44,7 @@ const Register = () => {
                     <input type="text" placeholder="Correo electrónico" required />
                     <BiUser className="icon" />
                 </div>
-
+                
                 {/* botones seguidos */}
                 <div class="button-container">
                     <div><button type='submit'>¿YA TIENES UNA CUENTA?</button></div>
@@ -53,6 +54,7 @@ const Register = () => {
             </form>
 
         </div>
+        </body>
 
     );
 };
