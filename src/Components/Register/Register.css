@@ -10,7 +10,7 @@
     font-family: 'Josefine Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: flex;
+    display: center;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -28,18 +28,21 @@ code {
 
 .wrapper1 {
     display: flex;
+    /*background-color: blueviolet;*/
     width: 100%;
     height: 100%;
     color: azure;
     box-sizing: border-box;
-   /*justify-content: space-between;*/
-   
+   justify-content: space-between;
+   margin-top: 100px;
 }
+
+
 
 .left-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 50%;
     height: 50%;
     float: left;
@@ -127,7 +130,7 @@ code {
 .wrapper1 .remember-forgot{
     display: flex;
     justify-content:center;
-    font-size: 14px;
+    font-size: 15px;
     margin: -15px 0 15px;
  }
 
@@ -136,8 +139,8 @@ code {
  }
 
 .wrapper1 .button {
-    width: 60%;
-    height: 100%;
+    width: 100%;
+    height: 70%;
     background: white;
     border: rgba(247, 246, 246, 0.897);
     outline: rgba(247, 246, 246, 0.897);
@@ -147,7 +150,7 @@ code {
     font-size: 14px;
     color: black;
     font-weight: 700;
-    margin: 15px 0px;
+    margin: 10px 0px;
     box-sizing: border-box;
    
 }
@@ -156,7 +159,7 @@ code {
     display: flex;
     justify-content: space-between; /* Alinea los elementos con espaciado entre ellos */
     width: 70%; /* Opcional: ajusta el ancho del contenedor según sea necesario */
-    margin: 20px 200px 0px;
+    margin: 240px 200px -80px; /*Ajuste de posición de los botones*/
     box-sizing: border-box;
 }
 
@@ -171,9 +174,6 @@ code {
     width: 90%; /* Ajusta el ancho de los botones al 100% del div contenedor */
     
 }
-
-    
-
 
 .text-below {
     margin-top: 10px; /* Espacio entre el input-box y el texto debajo */
